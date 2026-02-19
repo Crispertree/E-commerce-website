@@ -1,0 +1,36 @@
+/*Overall*/ 
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+/*HEADER*/  
+
+header {
+  display: flex;
+}
+
+ul {
+  display: flex;
+list-style: none;
+padding: 0;
+}
+
+li{
+margin-left: 5rem;
+}
+
+a{
+color:black;
+text-decoration: none;
+}
+/*class category*/
+
+.cathegory-img {
+  width: 30%;
+}
+
+/*CATEGORY SECTION*/        
+.category-container {
+display: grid;
+grid-template-columns: repeat(3, 8fr);
+}
