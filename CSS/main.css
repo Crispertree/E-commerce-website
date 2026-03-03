@@ -83,3 +83,12 @@ form {
   object-fit: ;
   border-radius: 8px;
 }
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  text-align: center;
+}
+
+
