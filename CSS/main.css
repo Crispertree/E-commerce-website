@@ -30,7 +30,7 @@ text-decoration: none;
   width: 30%;
 }
 
-/*CATEGORY SECTION*/        
+/*CATEGORY SECTION Books A-Z*/        
 .category-container {
 display: grid;
 grid-template-columns: repeat(3, 8fr);
@@ -61,4 +61,25 @@ padding: 80px 20px;
 form {
   display: flex;
   justify-content: center;
+}
+/*most popular section on main*/
+.popular {
+  text-align: center;
+  padding: 80px 20px ;
+  text-align: : center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*Book-grid*/
+.book-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.book-card {
+ width: 100px;
+  height: 100px;
+  object-fit: ;
+  border-radius: 8px;
 }
