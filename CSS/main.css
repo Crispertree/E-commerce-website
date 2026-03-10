@@ -8,6 +8,9 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
 }
 
 ul {
@@ -91,4 +94,14 @@ form {
   text-align: center;
 }
 
+/*CATEGORY SECTION  most popular Books  3st*/  
+.cathegory-pop {
+  width: 25%;
+}
+      
+.category-popular{
+display: flex;
+grid-template-columns: repeat(3, auto);
+justify-content: center;
+}
 
