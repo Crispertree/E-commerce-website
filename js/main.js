@@ -6,3 +6,4 @@ buttonElement.addEventListener("click" function (event) {
     HeadingElement.innertext = "Search results:" + enteredName;
 
 }
+
