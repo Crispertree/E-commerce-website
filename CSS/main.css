@@ -2,7 +2,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color:linen;
+  background-color: linen;
 }
 /*HEADER*/  
 
@@ -120,3 +120,8 @@ form {
   text-align: center;
   margin: 40px 0;
   font-weight: 600;
+}
+.price { 
+  font-weight:600;
+  margin:5px 0;
+}
