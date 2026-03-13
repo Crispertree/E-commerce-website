@@ -115,6 +115,7 @@ form {
   margin: 40px 0;
   font-weight: 600;
 }
+/*CART*/
 .cart-main {
   text-align: center;
   margin: 40px 0;
@@ -163,4 +164,38 @@ form {
 
 .cart-item button:hover {
   background: #555;
+}
+/*SPECIFIC PRODUCT SIDE*/
+.book-description {
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.product-container {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 40px auto;
+  align-items: flex-start;
+}
+
+.product-image {
+  width: 250px;
+  margin-top: 100px;
+}
+
+.product-info {
+  max-width: 500px;
+}
+
+.book-description {
+  line-height: 1.6;
+}
+
+.product-price {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 500;
 }
