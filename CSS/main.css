@@ -31,7 +31,7 @@ text-decoration: none;
 /*class category*/
 
 .cathegory-img {
-  width: 30%;
+  width: 50%;
 }
 
 /*CATEGORY SECTION Books A-Z*/        
@@ -44,7 +44,7 @@ display:grid;
   text-align:center;
 }
 
-/* Main Section*/
+/* Main Section home page*/
 .intro {
 text-align: center;
 padding: 50px 20px;
@@ -124,4 +124,44 @@ form {
 .price { 
   font-weight:600;
   margin:5px 0;
+}
+
+.cart-main {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#cart-items {
+  max-width: 700px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.cart-item h3 {
+  margin: 0;
+}
+
+.cart-item button {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer
+}
+
+.cart-item button:hover {
+  background: #555;
 }
