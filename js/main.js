@@ -1,8 +1,9 @@
 function displayCart() {
 
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
   let container = document.getElementById("cart-items");
+  if (!container) return;
 
   container.innerHTML = "";
 
@@ -39,11 +40,12 @@ function removeItem(index) {
 
   displayCart();
 }
+
 function updateCartCount() {
 
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
+document.getElementById("cart-count").innerText = cart.length;
 
-  document.getElementById("cart-count").innerText = cart.length;
 }
 function addToCart(id, name, price) {
 

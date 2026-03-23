@@ -206,3 +206,18 @@ form {
     flex-direction: column;
   }
 }
+
+/* Tablet */
+@media (max-width: 900px) {
+    .category-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+    .category-container {
+        grid-template-columns: 1fr;
+    }
+}
+
