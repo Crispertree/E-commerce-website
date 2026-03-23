@@ -199,3 +199,10 @@ form {
   margin-bottom: 15px;
   font-weight: 500;
 }
+
+/*responsive layout*/
+@media (max-width: 768px) {
+  .product-container {
+    flex-direction: column;
+  }
+}
