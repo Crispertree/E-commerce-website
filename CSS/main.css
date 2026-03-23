@@ -4,6 +4,11 @@ body {
   margin: 0;
   background-color: linen;
 }
+main {
+  display: grid;
+  gap: 2rem;
+}
+
 /*HEADER*/  
 
 header {
